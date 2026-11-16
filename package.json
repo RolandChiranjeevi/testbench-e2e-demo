@@ -1,0 +1,26 @@
+{
+  "name": "testbench-e2e-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RolandChiranjeevi/testbench-e2e-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RolandChiranjeevi/testbench-e2e-demo/issues"
+  },
+  "homepage": "https://github.com/RolandChiranjeevi/testbench-e2e-demo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6"
+  }
+}
