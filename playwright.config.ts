@@ -9,9 +9,10 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
 
   reporter: [
-    ['list'],
-    ['json', { outputFile: 'results.json' }],
-  ],
+  ['list'],
+  ['json', { outputFile: 'test-results/results.json' }],
+],
+
 
   use: {
     trace: 'on-first-retry',
