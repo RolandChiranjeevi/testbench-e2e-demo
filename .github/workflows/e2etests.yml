@@ -27,12 +27,11 @@ jobs:
           npx playwright install --with-deps chromium
 
       - name: Run Playwright tests
-        working-directory: e2e
         run: npx playwright test
 
       - name: Report results to Testbench
         if: always()
-        working-directory: e2e
+        
         env:
           TESTBENCH_URL: ${{ secrets.TESTBENCH_URL }}
           TESTBENCH_PROJECT_ID: ${{ vars.TESTBENCH_PROJECT_ID }}
